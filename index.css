@@ -1,0 +1,46 @@
+@font-face {
+    font-family: scoreboard;
+    src: url('fonts/segment.ttf');
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-home {
+    /* background: lightcoral; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.home-title {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: white;
+}
+
+.home-score {
+    font-family: scoreboard;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+
+    color: #F94F6D;
+    background: black;
+    border-radius: 5px;
+}
