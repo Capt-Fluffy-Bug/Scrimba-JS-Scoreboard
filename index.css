@@ -73,3 +73,34 @@ body {
 
     background: transparent;
 }
+
+
+.reset-container {
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.reset-button {
+    width: fit-content;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+
+    background: transparent;
+}
+
+.reset-button-span {
+    font-family: scoreboard;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    text-align: center;
+
+    color: #9AABD8;
+}
