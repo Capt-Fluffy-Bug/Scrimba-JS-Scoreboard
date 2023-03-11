@@ -11,13 +11,14 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+    max-height: 100vh;
 }
 
 .container-home {
-    /* background: lightcoral; */
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     width: 15%;
 }
 
@@ -26,21 +27,49 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 36px;
+
     color: white;
+
 }
 
-.home-score {
+.home-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15%;
+}
+
+.home-score-container {
     font-family: scoreboard;
     font-style: normal;
     font-weight: 400;
     font-size: 90px;
     line-height: 127px;
-    /* or 141% */
+    text-align: center;
+    color: #ee3d3d;
+    background: black;
+    border-radius: 5px;
+}
+
+.home-add-one-span {
+    font-family: scoreboard;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
 
     text-align: center;
 
-    color: #F94F6D;
-    background: black;
+    color: #9AABD8;
+}
+
+.home-add-one {
+    width: 50px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
     border-radius: 5px;
+
+    background: transparent;
 }

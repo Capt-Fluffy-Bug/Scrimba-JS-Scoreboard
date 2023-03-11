@@ -6,14 +6,47 @@
         <div class="container">
             <div class="container-home">
                 <h3 class="home-title">HOME</h3>
-                <div class="home-score">
-                    <span id="score">0</span>
+
+                <!-- score -->
+                <div class="home-score-container">
+                    <span id="home-score">0</span>
+                </div>
+
+                <!-- buttons -->
+                <div class="home-buttons">
+                    <button onclick="homeAddOne()" class="home-add-one">
+                        <span class="home-add-one-span">+ 1</span>
+                    </button>
+                    <button onclick="homeAddTwo()" class="home-add-one">
+                        <span class="home-add-one-span">+ 2</span>
+                    </button>
+                    <button onclick="homeAddThree()" class="home-add-one">
+                        <span class="home-add-one-span">+ 3</span>
+                    </button>
                 </div>
             </div>
+
+
+
             <div class="container-home">
                 <h3 class="home-title">GUEST</h3>
-                <div class="home-score">
-                    <span id="score">0</span>
+
+                <!-- score -->
+                <div class="home-score-container">
+                    <span id="guest-score">0</span>
+                </div>
+
+                <!-- buttons -->
+                <div class="home-buttons">
+                    <button onclick="guestAddOne()" class="home-add-one">
+                        <span class="home-add-one-span">+ 1</span>
+                    </button>
+                    <button onclick="guestAddTwo()" class="home-add-one">
+                        <span class="home-add-one-span">+ 2</span>
+                    </button>
+                    <button onclick="guestAddThree()" class="home-add-one">
+                        <span class="home-add-one-span">+ 3</span>
+                    </button>
                 </div>
             </div>
         </div>
