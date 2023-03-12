@@ -50,6 +50,11 @@ body {
     border-radius: 5px;
 }
 
+.score-container-highlight {
+    border: 2px solid #ee3d3d;
+    border-radius: 5px;
+}
+
 .home-add-one-span {
     font-family: scoreboard;
     font-style: normal;
